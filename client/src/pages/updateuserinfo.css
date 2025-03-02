@@ -1,0 +1,44 @@
+.update-user-info,
+.update-user-password {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+    flex-direction: column;
+    height: calc(100vh - 80px);
+}
+.update-user-info .container,
+.update-user-password .container{
+    padding:1rem 2rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.update-user-info .container h2,
+.update-user-password .container h2{
+    font-size: 1.2rem;
+}
+.update-user-info form input{
+    min-width: 400px;
+}
+.success-message{
+    font-size: 0.8rem;
+    color:green;
+}
+.error-message{
+    font-size: 0.8rem;
+    color:red;
+}
+
+/* Update Password.jsx */
+.update-user-password .password-container{
+    display: flex;
+    gap:4px;
+    border-radius: 4px;
+}
+.password-container input{
+    min-width: 340px;
+}

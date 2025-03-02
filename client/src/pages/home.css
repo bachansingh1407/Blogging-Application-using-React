@@ -1,0 +1,10 @@
+.all__blogs{
+    padding: 1rem 2rem;
+}
+.blog__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
+    padding:1rem 0rem;
+}

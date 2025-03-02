@@ -1,0 +1,61 @@
+.blog__detail{
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem;
+    width:100%;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+.blog__detail h1{
+    color: #8A2BE2;
+    font-size: 1.8rem;
+}
+
+.blog__detail .blog__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog__title .user__side{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.blog__title .user__side .category{
+    font-size: 0.7rem;
+    background: #892be29c;
+    color:#fff;
+    padding:4px 8px;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+.user__side .username{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.user__side .username a{
+    color: #8A2BE2;
+    text-transform: capitalize;
+}
+.user__side .posted__on{
+    font-size: 0.7rem;
+    color:#8A2BE2;
+}
+.blog__title .edit{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+.edit a{
+    color:#8A2BE2;
+    font-size: 1rem;
+}
+.edit button{
+    color:#fff;
+    background: rgb(235, 12, 12);
+    border: none;
+    padding:4px 8px;
+    border-radius: 4px;
+}

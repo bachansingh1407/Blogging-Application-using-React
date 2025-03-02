@@ -1,0 +1,28 @@
+.newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+    flex-direction: column;
+    height: calc(100vh - 80px);
+}
+.newsletter .container{
+    padding:1rem 2rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.newsletter .container .newsletter__content{
+    display: flex;
+    flex-direction: column;
+    gap:0.8rem;
+}
+.newsletter .container h2{
+    font-size: 1rem;
+}
+.newsletter .container p{
+    font-size: 0.8rem;
+}
