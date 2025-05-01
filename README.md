@@ -1,5 +1,7 @@
 # Blogging Application  
 
+## Overview
+
 A full-stack blogging web application built using React, Node.js, Express, and MySQL. This application allows users to create, edit, and share blogs while ensuring proper authentication and security.  
 
 ## Features  
